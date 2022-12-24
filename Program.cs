@@ -4,46 +4,44 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace perfect_number
+namespace ConsoleApp4
 {
     class Program
     {
-        public static double findfactor(double input)
-        {
-            double sum = 0;
-            for (double i = 1; i < input; i++)
-            {
-                if (input % i == 0)
-                {
-                    sum = sum + i;
-                }
-
-            }
-
-            return sum;
-
-        }
-
         static void Main(string[] args)
         {
-            Console.WriteLine("Please Enter The Start Number");
+            Console.WriteLine("Please Enter The Start Number:");
+            int n1 = int.Parse(Console.ReadLine());
 
-            double n1 = double.Parse(Console.ReadLine());
+            Console.WriteLine("Please Enter The End Number:");
 
-            Console.WriteLine("Please Enter The End Number");
-
-            double n2 = double.Parse(Console.ReadLine());
-
-            for (double i = n1; i < n2; i++)
+            int n2 = int.Parse(Console.ReadLine());
+            for (int i = n1; i <= n2; i++)
             {
-                double result = findfactor(i);
-                if (i == result)
+                bool number = true;
+                if (i == 1)
                 {
-                    Console.WriteLine(i + " is a perfect number");
-                }
-            }
+                    number = false;
 
+                }
+                else
+                {
+                    for (int j = 2; j < i; j++)
+                    {
+                        if (i % j == 0)
+                        {
+                            number = false;
+                            break;
+                        }
+                    }
+                    if (number)
+                    {
+                        Console.WriteLine("the prime number is:" + i);
+                    }
+                }
+
+            }
             Console.ReadKey();
         }
-
-}   }
+    }
+}
