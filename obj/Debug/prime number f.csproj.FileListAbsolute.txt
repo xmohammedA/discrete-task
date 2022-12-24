@@ -1,7 +1,0 @@
-C:\Users\xmoha\source\repos\ConsoleApp4\ConsoleApp4\bin\Debug\ConsoleApp4.exe.config
-C:\Users\xmoha\source\repos\ConsoleApp4\ConsoleApp4\bin\Debug\ConsoleApp4.exe
-C:\Users\xmoha\source\repos\ConsoleApp4\ConsoleApp4\bin\Debug\ConsoleApp4.pdb
-C:\Users\xmoha\source\repos\ConsoleApp4\ConsoleApp4\obj\Debug\prime number f.csproj.AssemblyReference.cache
-C:\Users\xmoha\source\repos\ConsoleApp4\ConsoleApp4\obj\Debug\prime number f.csproj.CoreCompileInputs.cache
-C:\Users\xmoha\source\repos\ConsoleApp4\ConsoleApp4\obj\Debug\ConsoleApp4.exe
-C:\Users\xmoha\source\repos\ConsoleApp4\ConsoleApp4\obj\Debug\ConsoleApp4.pdb
